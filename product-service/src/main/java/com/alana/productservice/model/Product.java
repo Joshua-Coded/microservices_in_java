@@ -1,6 +1,4 @@
 package com.alana.productservice.model;
-
-
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -16,6 +14,7 @@ import java.math.BigDecimal;
 @Builder
 @Data
 public class Product {
+
     @Id
     private String id;
     private String name;

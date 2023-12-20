@@ -6,7 +6,6 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.math.BigDecimal;
-
 @Data
 @Builder
 @AllArgsConstructor
@@ -15,13 +14,4 @@ public class ProductRequest {
     private String name;
     private String description;
     private BigDecimal price;
-
-    public void getName() {
-    }
-
-    public void getDescription() {
-    }
-
-    public void getPrice() {
-    }
 }
